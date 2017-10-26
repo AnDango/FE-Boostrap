@@ -1,7 +1,7 @@
 ## Introduction
-Learning Boostrap.
+Learning Bootstrap.
 
 ## Progress
 | Date | Progress |
 |:-----|:---------|
-| 2017.10.26 | Boostrap learning phase 1 started. |
+| 2017.10.26 | Bootstrap learning phase 1 started. |
