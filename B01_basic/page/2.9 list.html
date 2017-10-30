@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap的6种列表</title>
+    <!-- Bootstrap core CSS -->
+    <link href="../../css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+<!-- 普通列表与有序列表 -->
+<h5>普通列表</h5>
+<ul>
+    <li>普通列表项目1</li>
+    <li>普通列表项目2</li>
+    <li>普通列表项目3</li>
+    <li>普通列表项目4</li>
+    <li>普通列表项目5</li>
+</ul>
+<h5>有序列表</h5>
+<ol>
+    <li>有序列表项目1</li>
+    <li>有序列表项目2</li>
+    <li>有序列表项目3</li>
+</ol>
+<h5>有序列表嵌套</h5>
+<ol>
+    <li>有序列表</li>
+    <li>
+        有序列表
+        <ol>
+            <li>有序列表(2)</li>
+            <li>有序列表(2)</li>
+        </ol>
+    </li>
+    <li>有序列表</li>
+</ol>
+
+<!--去点列表-->
+<h5>无序列表去点</h5>
+<ul>
+    <li>
+        项目列表
+        <ul>
+            <li>带有项目符号</li>
+            <li>带有项目符号</li>
+        </ul>
+    </li>
+    <li>
+        项目列表
+        <ul class="list-unstyled">
+            <li>不带项目符号</li>
+            <li>不带项目符号</li>
+        </ul>
+    </li>
+    <li>项目列表</li>
+</ul>
+<h5>有序列表去序号</h5>
+<ol>
+    <li>
+        项目列表
+        <ol>
+            <li>带有项目编号</li>
+            <li>带有项目编号</li>
+        </ol>
+    </li>
+    <li>
+        项目列表
+        <ol class="list-unstyled">
+            <li>不带项目编号</li>
+            <li>不带项目编号</li>
+        </ol>
+    </li>
+    <li>项目列表</li>
+</ol>
+
+<!--内联列表（做导航栏用）-->
+<ul class="list-inline">
+    <li>W3cplus</li>
+    <li>Blog</li>
+    <li>CSS3</li>
+    <li>jQuery</li>
+    <li>PHP</li>
+</ul>
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../../js/bootstrap.js"></script>
+</body>
+</html>
